@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/Button_LearningAnalytics_Id"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/black_small"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/Button_Create_Id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/create"
+        
+        android:text="@string/no_text" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:ems="10"
+        android:visibility="invisible" >
+
+        <requestFocus />
+    </EditText>
+    
+    <Button
+        android:id="@+id/Button_Revise_Id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/revise"
+        android:text="@string/no_text" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:ems="10"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/Button_Search_Id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/quick_search"
+        android:text="@string/no_text" />
+
+</LinearLayout>

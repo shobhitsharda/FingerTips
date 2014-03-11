@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources><string name="hello">Hello World, FingerTipsActivity!</string>
+    <string name="app_name">FingerTips</string>
+    <string name="no_text"></string>
+    <string name="create">Create</string>
+    <string name="math">Mathematics</string>
+    
+    <string name="camera">Capture</string>
+    <string name="subjects">Subjects</string>
+    <string name="chapters">Chapters</string>
+    <string name="topics">Topics</string>
+    <string name="topicsName">Topics Name</string>
+    <string name="add">Add</string>
+    <string name="textpad">TextPad</string>
+    <string name="enter">Enter</string>
+    <string name="save">Save</string>
+    <string name="next">Next</string>
+    <string name="previous">Prev</string>
+    <string name="reviseAll">Revise All</string>
+    <string name="home">Home</string>
+    <string name="search">Seach</string>
+    <string name="revise">Revise</string>
+    <string name="all">All</string>
+    <string name="random">Random</string>
+    <string name="search_subject">Subject :</string>
+    <string name="search_chapter">Chapter :</string>
+    <string name="search_topic">Topic :</string>
+</resources>

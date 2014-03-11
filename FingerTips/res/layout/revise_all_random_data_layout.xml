@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="fill|top"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/btn_home"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/home"
+            android:text="@string/no_text" />
+
+        <TextView
+            android:id="@+id/txt_topic_display_revise_random"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.26"
+            android:gravity="center"
+            android:text="@string/topicsName"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_previous"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/previous"
+                android:text="@string/no_text" />
+
+            <ViewFlipper
+                android:id="@+id/viewFlipper1"
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.25" >
+
+                <ImageView
+                    android:id="@+id/img_view_all_topics_data"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.50"
+                    android:src="@drawable/black" />
+
+            </ViewFlipper>
+
+            <Button
+                android:id="@+id/btn_next"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/next"
+                android:text="@string/no_text" />
+
+        </LinearLayout>
+
+</LinearLayout>
